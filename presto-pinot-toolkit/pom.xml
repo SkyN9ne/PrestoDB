@@ -14,7 +14,7 @@
 
     <properties>
         <air.main.basedir>${project.parent.basedir}</air.main.basedir>
-        <grpc.version>1.41.0</grpc.version>
+        <grpc.version>1.53.0</grpc.version>
     </properties>
 
     <dependencies>
@@ -319,7 +319,7 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>3.21.7</version>
+            <version>3.16.3</version>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
