@@ -13,7 +13,7 @@
     <properties>
         <air.main.basedir>${project.parent.basedir}</air.main.basedir>
         <dep.log4j.version>2.17.1</dep.log4j.version>
-        <dep.elasticsearch.version>6.0.0</dep.elasticsearch.version>
+        <dep.elasticsearch.version>7.17.19</dep.elasticsearch.version>
         <dep.snakeyaml.version>2.0</dep.snakeyaml.version>
     </properties>
 
@@ -128,7 +128,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.2</version>
+            <version>4.5.13</version>
 
             <exclusions>
                 <!-- elasticsearch-rest-high-level-client 6.0.0 brings in httpcore 4.4.5 vs (4.4.4) -->
